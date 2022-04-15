@@ -1,3 +1,4 @@
 pyqrcodeng
 Pillow
 pypng
+segno
