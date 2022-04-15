@@ -1,5 +1,5 @@
 # QR Code Generator
-# PyQRCodeNG version https://github.com/pyqrcode/pyqrcodeNG
+# sengo version https://github.com/heuer/segno/
 
 import streamlit as st
 import segno
@@ -12,7 +12,7 @@ DARK_COLOR = (250, 0, 0, 255)
 
 st.title('QR Code Generator App')
 st.subheader('You can generate a QR code from a string or URL.')
-st.text('PyQRCodeNG version')
+st.text('segno version')
 qr_url = st.text_input('Enter a string or URL to generate a QR code:', value='https://code2create.club/')
 
 col1, col2 = st.columns(2)
